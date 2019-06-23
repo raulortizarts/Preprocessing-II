@@ -1,1 +1,33 @@
 // Navigation Styles here
+
+.top-navigation{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    nav {
+        margin-top: 30px;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    
+        a {
+            width: 90%;
+        display: flex;
+            justify-content: space-around;
+            color: grey;
+            text-decoration: none;
+        }
+    
+    }
+
+    @media( min-width: 500px ) {
+        width: 100%;
+        .flex-mixin();
+
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+      }
+}   
